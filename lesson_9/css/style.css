@@ -1,0 +1,433 @@
+/*                                                                                              Обнуление                                                                                                                                                    */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/*                                                                                                     Обнуление                                                                                                                                                 */
+/*                                                                                                       CSS                                                                                                                                                         */
+
+/*              фиксированная шапка (позиционирование всегда относительно окна браузера, не участвует в скролле)                             */
+.wrapper {
+}
+
+.block__2 {
+	font-size: 35px;
+	text-align: center;
+	background-color: yellow;
+	text-shadow: 5px -5px 5px;
+	color: #000;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	opacity: 0.3;
+}
+/*                                            .                                                                       */
+
+.homework {
+}
+.homework_part2 {
+	width: 1920px;
+	height: 100vh;
+	position: relative;
+	margin: 0 auto;
+}
+.part2_wrapper {
+	display: flex;
+	flex-direction: column;
+	background: url("../img/bg.png") no-repeat 50% 50%;
+	background-size: cover;
+	position: relative;
+	max-width: 1920px;
+	min-height: 720px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100vh;
+}
+.part2_footer {
+	flex-direction: row;
+	flex-basis: 25%;
+	flex-basis: 500px;
+	flex-shrink: 1;
+	display: flex;
+	align-items: center;
+}
+.column-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.column-1_header {
+}
+.header_teg1 {
+	display: inline-block;
+	color: #e1e1e1;
+	font-family: "Gilroy";
+	font-size: 52px;
+	font-weight: bold;
+}
+.header_teg2 {
+	display: inline-block;
+	border-left: 2px solid #89afef;
+	color: #5d5d5d;
+	font-family: "Gilroy";
+	font-size: 14px;
+	font-weight: medium;
+}
+.column-1_text {
+	display: flex;
+	align-items: center;
+}
+.teg1 {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.teg2 {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.teg3 {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.column-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.column-2_items {
+	display: flex;
+	align-items: center;
+}
+.whatsapp {
+}
+.viber {
+}
+.telegram {
+}
+.column-2_text {
+	align-items: center;
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.column-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.column-3_data {
+}
+.phone {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 20px;
+	font-weight: bold;
+}
+.mail {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 17px;
+	font-weight: medium;
+}
+.column-3_text {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.column-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.column-4_button {
+	flex: 1;
+	margin: 0 auto;
+	padding: 14px 18px;
+	border: none;
+	background: linear-gradient(to right, #f6bd60, #e88952);
+	color: #ffffff;
+	font-family: "Gilroy";
+	font-size: 18px;
+	border-radius: 3px;
+}
+.column-4_text {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: medium;
+}
+.part2_body {
+	flex-grow: 1;
+	display: flex;
+	overflow: hidden;
+	max-width: 1920px;
+	min-height: 720px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100vh;
+}
+.part2_body__column1 {
+	display: flex;
+	flex-direction: column;
+}
+.part2_body__column1header {
+	text-align: left;
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 40px;
+	font-weight: 900;
+}
+.part2_body__column1text {
+	display: flex;
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 24px;
+	font-weight: medium;
+}
+.price {
+	color: #333333;
+	font-family: "Gilroy";
+	font-size: 24px;
+	font-weight: 900;
+}
+.part2_body__column1button {
+	margin: 0;
+	padding: 14px 18px;
+	border: none;
+	background-color: #87aff1;
+	background-image: linear-gradient(to right, #87aff1, #6c80cb);
+	color: #ffffff;
+	font-family: "Gilroy";
+	font-size: 16px;
+	font-weight: bold;
+	min-width: 211px;
+}
+.part2_body__column2 {
+}
+.part2_body__column2items {
+	width: 400px;
+	height: 563px;
+}
+
+/*                                                                                                              */
+
+.homework_part1 {
+	max-width: 1920px;
+	min-height: 720px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100vh;
+}
+.environment {
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	background-color: #eee;
+}
+.background {
+}
+
+.homework_part1__poligon {
+}
+.poligon_road {
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+	background: rgb(102, 102, 102);
+	font-size: 200px;
+	z-index: 5;
+	opacity: 0.5;
+	width: 100%;
+	height: 600px;
+}
+.poligon_car {
+}
+.car_body {
+}
+
+.car_glass {
+}
+.car_body-body {
+	z-index: 5;
+	position: absolute;
+	background: burlywood;
+	width: 960px;
+	height: 300px;
+	bottom: 180px;
+	left: 360px;
+	border-top-right-radius: 78%;
+	border-top-left-radius: 55%;
+	border-bottom: 15px solid brown;
+	border-top: 15px solid grey;
+	border-left: 5px solid grey;
+	border-right: 5px solid grey;
+}
+.car_glass__windshield {
+	border: 15px solid black;
+	z-index: 6;
+	position: absolute;
+	width: 350px;
+	height: 140px;
+	background: blue;
+	border-top-right-radius: 65%;
+	bottom: 290px;
+	left: 890px;
+}
+.car_glass_sideglass {
+	border: 15px solid black;
+	background: blue;
+	z-index: 6;
+	position: absolute;
+	width: 300px;
+	height: 140px;
+	bottom: 290px;
+	left: 570px;
+}
+.car_glass__rearglass {
+	border: 15px solid black;
+	z-index: 6;
+	background: blue;
+	position: absolute;
+	width: 175px;
+	height: 140px;
+	border-top-left-radius: 75%;
+	bottom: 290px;
+	left: 370px;
+}
+
+.car_frontbamper {
+	z-index: 6;
+	width: 150px;
+	height: 70px;
+	background: seagreen;
+	border-radius: 10px 5px 65% 10px;
+	position: absolute;
+	bottom: 150px;
+	left: 1180px;
+}
+.car_frontfender {
+	position: absolute;
+	z-index: 5;
+	background: rgb(99, 184, 233);
+	width: 50px;
+	height: 50px;
+	left: 905px;
+	bottom: 45px;
+	border-top-right-radius: 45%;
+	border-bottom-right-radius: 45%;
+}
+.car_frontdoor {
+	position: absolute;
+	z-index: 5;
+	background: chocolate;
+	width: 375px;
+	height: 220px;
+	left: 515px;
+	bottom: 25px;
+	border-top-right-radius: 55%;
+}
+.car_backdoor {
+	position: absolute;
+	z-index: 5;
+	background: chocolate;
+	width: 325px;
+	height: 220px;
+	left: 188px;
+	bottom: 25px;
+	border-bottom-left-radius: 25%;
+}
+.car_backbamper {
+	z-index: 6;
+	width: 150px;
+	height: 70px;
+	background: seagreen;
+	border-radius: 5px 5px 10px 65%;
+	position: absolute;
+	bottom: 150px;
+	left: 350px;
+}
+.car_rearwing {
+	position: absolute;
+	z-index: 5;
+	background: chocolate;
+	width: 175px;
+	height: 100px;
+	left: 5px;
+	bottom: 25px;
+	border-bottom-right-radius: 55%;
+}
+.car_frontwheel {
+	z-index: 7;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 100px;
+	left: 1060px;
+	background-color: blue;
+	border-radius: 50%;
+	border: 25px solid black;
+}
+.car_frontwheel:hover {
+	transform: rotate3d(1, 1, 2, 50deg);
+}
+.car_backwheel {
+	z-index: 7;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 100px;
+	left: 450px;
+	background-color: blue;
+	border-radius: 50%;
+	border: 25px solid black;
+}
